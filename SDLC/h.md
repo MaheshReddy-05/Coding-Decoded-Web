@@ -51,7 +51,7 @@ Output: [0,1]
 
 ## Check Out the Video Solution: 
 
-<iframe width="900" height="500" src="https://www.youtube.com/embed/HrvcbD-UO5o?rel=0" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true" ></iframe>
+<iframe width="900" height="500" src="https://www.youtube.com/embed/HrvcbD-UO5o?rel=0" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 
 
 ## Approach 1: Brute Force

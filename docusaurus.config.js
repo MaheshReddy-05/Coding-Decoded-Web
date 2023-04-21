@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Coding Decoded',
   tagline: 'Let\'s Show our Coding Power',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/CD.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -67,20 +67,26 @@ const config = {
         title: 'Coding Decoded',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/CD.svg',
         },
         items: [
+          // {
+          //   label: 'Solutions',
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          // },
           {
             label: 'Solutions',
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to:'/solutions/h',
             position: 'left',
           },
           {
             label: 'SDLC',
             // type: 'docSidebar',
             // sidebarId: 'tutorialSidebar',
-            to:'/blog',
+            to:'/SDLC/h',
+            footer:false,
             position: 'left',
           },
           { 
@@ -145,6 +151,69 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'solutions',
+          path: 'solutions',
+          routeBasePath: 'solutions',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
+          // showLastUpdateTime: true,
+          // showLastUpdateAuthor: true,
+          editUrl:
+            'https://github.com/MaheshReddy-05',
+        }, 
+      ],
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'SDLC',
+          path: 'SDLC',
+          routeBasePath: 'SDLC',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
+          // showLastUpdateTime: true,
+          // showLastUpdateAuthor: true,
+          editUrl:
+            'https://github.com/MaheshReddy-05',
+        }, 
+      ],
+      // [
+      //   '@docusaurus/plugin-content-docs',
+      //   {
+      //     id: 'collections',
+      //     path: 'collections',
+      //     routeBasePath: 'collections',
+      //     sidebarPath: require.resolve('./sidebars.js'),
+      //     // remarkPlugins: [math],
+      //     // rehypePlugins: [katex],
+      //     // showLastUpdateTime: true,
+      //     // showLastUpdateAuthor: true,
+      //     editUrl:
+      //       'https://github.com/MaheshReddy-05',
+      //   }, 
+      // ],
+
+      // [
+      //   '@docusaurus/plugin-content-docs',
+      //   {
+      //     id: 'templates',
+      //     path: 'templates',
+      //     routeBasePath: 'templates',
+      //     sidebarPath: require.resolve('./sidebars.js'),
+      //     // remarkPlugins: [math],
+      //     // rehypePlugins: [katex],
+      //     // showLastUpdateTime: true,
+      //     // showLastUpdateAuthor: true,
+      //     editUrl:
+      //       'https://github.com/MaheshReddy-05',
+      //   }, 
+      // ],
+  ],
 };
 
 module.exports = config;
