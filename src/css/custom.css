@@ -87,3 +87,6 @@ html[data-theme='light'] {
 /* About the commit:
   Added font changing Properties
  */
+
+ /* Logo Loading Issue in Dark */
+ /* html[data-theme='dark'] .navbar .navbar__logo { content: url(/img/LogD.svg) } */

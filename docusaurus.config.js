@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Coding Decoded',
   tagline: 'Let\'s Show our Coding Power',
-  favicon: 'img/CD.svg',
+  favicon: 'img/LogD.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -67,7 +67,8 @@ const config = {
         title: 'Coding Decoded',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/CD.svg',
+          src: 'img/LogW.svg',
+          srcDark:'img/LogD.svg',
         },
         items: [
           // {
