@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MaheshReddy-05/Coding-Decoded-Web',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MaheshReddy-05/Coding-Decoded-Web',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,16 +64,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Coding Decoded',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            label: 'Tutorial',
+            label: 'Solutions',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
+            position: 'left',
+          },
+          {
+            label: 'SDLC',
+            // type: 'docSidebar',
+            // sidebarId: 'tutorialSidebar',
+            to:'/blog',
             position: 'left',
           },
           { 
@@ -82,7 +89,7 @@ const config = {
             position: 'left'
          },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MaheshReddy-05/Coding-Decoded-Web',
             label: 'GitHub',
             position: 'right',
           },
