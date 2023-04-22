@@ -1,11 +1,17 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+* Any CSS included here will be global. The classic template
+* bundles Infima by default. Infima is a CSS framework designed to
+* work well for content-centric websites.
+*/
 
 /* You can override the default Infima variables here. */
+/* Custom Font Style */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Inter' !important;
+}
 :root {
   --ifm-color-primary: rgb(1, 176, 209);
   /* --ifm-color-primary: rgb(254, 129, 111); */
@@ -40,12 +46,22 @@
 /* Customized Dark Theme */
 html[data-theme='dark'] {
   --ifm-background-color: #1e2125;
-  --ifm-background-surface-color: #161616;
+  --ifm-background-surface-color:rgb(30, 33, 37);
 }
 
 html[data-theme='light'] {
   --ifm-background-color: #fafafa;
   --ifm-background-surface-color: #ffffff;
+}
+
+header.MuiAppBar-root
+.navbar__brand{
+  margin-right: 20px !important;
+}
+
+header.MuiAppBar-root
+.navbar__iteams{
+  margin-left: auto !important;
 }
 
 @media screen and (max-width: 996px) {
@@ -63,19 +79,13 @@ html[data-theme='light'] {
 
 @media screen and (min-width: 997px) {
   :root {
-    --ifm-font-size-base: 16px;
+    --ifm-font-size-base: 18px;
   }
   article header h1 {
     font-size: 2rem !important;
   }
 }
 
-/* Custom Font Style */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-
-:root {
-  --ifm-font-family-base: 'Inter';
-}
 
 /* For align items in center */
 /* article {
