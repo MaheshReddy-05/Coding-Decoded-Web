@@ -79,15 +79,20 @@ const config = {
           // },
           {
             label: 'Solutions',
-            to:'/solutions/h',
+            to: '/solutions/category/0000---0099',
             position: 'left',
           },
           {
             label: 'SDLC',
             // type: 'docSidebar',
             // sidebarId: 'tutorialSidebar',
-            to:'/SDLC/h',
+            to:'/SDLC/2023/Jan/h',
             footer:false,
+            position: 'left',
+          },
+          {
+            label: 'LLD',
+            to:'/LLD/questions',
             position: 'left',
           },
           { 
@@ -95,6 +100,7 @@ const config = {
             label: 'Blog', 
             position: 'left'
          },
+
           {
             href: 'https://github.com/MaheshReddy-05/Coding-Decoded-Web',
             label: 'GitHub',
@@ -175,6 +181,21 @@ const config = {
           id: 'SDLC',
           path: 'SDLC',
           routeBasePath: 'SDLC',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
+          // showLastUpdateTime: true,
+          // showLastUpdateAuthor: true,
+          editUrl:
+            'https://github.com/MaheshReddy-05',
+        }, 
+      ],
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'LLD',
+          path: 'LLD',
+          routeBasePath: 'LLD',
           sidebarPath: require.resolve('./sidebars.js'),
           // remarkPlugins: [math],
           // rehypePlugins: [katex],
