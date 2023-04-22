@@ -99,7 +99,12 @@ const config = {
             to: '/blog', 
             label: 'Blog', 
             position: 'left'
-         },
+          },
+          { 
+            label: 'About US', 
+            href:'https://www.youtube.com/@CodeWithSunchitDudeja', 
+            position: 'left'
+          },
 
           {
             href: 'https://github.com/MaheshReddy-05/Coding-Decoded-Web',
