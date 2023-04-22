@@ -91,7 +91,7 @@ const config = {
             position: 'left',
           },
           {
-            label: 'System Design Courses',
+            label: 'System Design',
             to:'/LLD/questions',
             position: 'left',
           },
