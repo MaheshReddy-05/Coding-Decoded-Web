@@ -83,7 +83,7 @@ const config = {
             position: 'left',
           },
           {
-            label: 'SDLC',
+            label: 'Daily Leetcode Challenge',
             // type: 'docSidebar',
             // sidebarId: 'tutorialSidebar',
             to:'/SDLC/2023/Jan/h',
@@ -91,7 +91,7 @@ const config = {
             position: 'left',
           },
           {
-            label: 'LLD',
+            label: 'System Design Courses',
             to:'/LLD/questions',
             position: 'left',
           },
@@ -101,7 +101,7 @@ const config = {
             position: 'left'
           },
           { 
-            label: 'About US', 
+            label: 'About Us',
             href:'https://www.youtube.com/@CodeWithSunchitDudeja', 
             position: 'left'
           },
