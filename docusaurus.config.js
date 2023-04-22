@@ -78,12 +78,12 @@ const config = {
           //   position: 'left',
           // },
           {
-            label: 'Solutions',
+            label: 'DSA',
             to: '/solutions/category/0000---0099',
             position: 'left',
           },
           {
-            label: 'Daily Leetcode Challenge',
+            label: 'Daily Leetcode solutions',
             // type: 'docSidebar',
             // sidebarId: 'tutorialSidebar',
             to:'/SDLC/2023/Jan/h',
@@ -108,7 +108,7 @@ const config = {
 
           {
             href: 'https://github.com/MaheshReddy-05/Coding-Decoded-Web',
-            label: 'GitHub',
+            label: 'Check us out on GitHub',
             position: 'right',
           },
         ],
