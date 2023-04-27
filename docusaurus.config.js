@@ -78,12 +78,12 @@ const config = {
           //   position: 'left',
           // },
           {
-            label: 'DSA',
+            label: '🧞DSA',
             to: '/solutions/category/0000---0099',
             position: 'left',
           },
           {
-            label: 'Daily Leetcode solutions',
+            label: '🥂Daily Leetcode solutions',
             // type: 'docSidebar',
             // sidebarId: 'tutorialSidebar',
             to:'/SDLC/2023/Jan/h',
@@ -91,13 +91,13 @@ const config = {
             position: 'left',
           },
           {
-            label: 'System Design',
+            label: '💻System Design',
             to:'/LLD/questions',
             position: 'left',
           },
           { 
             to: '/blog', 
-            label: 'Blog', 
+            label: '📙Blog', 
             position: 'left'
           },
           { 
