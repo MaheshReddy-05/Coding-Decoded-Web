@@ -127,3 +127,9 @@ header.MuiAppBar-root
   padding: 5px;
   margin: 5px;
 }
+
+
+.navbar .navbar__inner {
+    margin: 0 auto;
+    max-width: 1360px;
+}
