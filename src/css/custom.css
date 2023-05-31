@@ -1,0 +1,135 @@
+/**
+* Any CSS included here will be global. The classic template
+* bundles Infima by default. Infima is a CSS framework designed to
+* work well for content-centric websites.
+*/
+
+/* You can override the default Infima variables here. */
+/* Custom Font Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Inter' !important;
+}
+:root {
+  --ifm-color-primary: rgb(1, 176, 209);
+  /* --ifm-color-primary: rgb(254, 129, 111); */
+  --ifm-line-height-base:23.1px;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-font-size-base: 100%;
+  --ifm-code-font-size: 90%;
+  --ifm-navbar-height: 60px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: rgb(0, 154, 185);
+  /* --ifm-color-primary: rgb(254, 129, 111); */
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-code-font-size: 92%;
+  --ifm-navbar-height: 60px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Customized Dark Theme */
+html[data-theme='dark'] {
+  --ifm-background-color: #1e2125;
+  --ifm-background-surface-color:rgb(30, 33, 37);
+}
+
+html[data-theme='light'] {
+  --ifm-background-color: #fafafa;
+  --ifm-background-surface-color: #ffffff;
+}
+
+header.MuiAppBar-root
+.navbar__brand{
+  margin-right: 20px !important;
+}
+
+header.MuiAppBar-root
+.navbar__iteams{
+  margin-left: auto !important;
+}
+
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+/* Customized Font size */
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
+}
+
+
+/* For align items in center */
+/* article {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* About the commit:
+  Added font changing Properties
+ */
+
+ /* Logo Loading Issue in Dark */
+ /* html[data-theme='dark'] .navbar .navbar__logo { content: url(/img/LogD.svg) } */
+
+
+ .tutorial-tag-wrapper .tag {
+  background-color: #282A36;
+  border-radius: 2px;
+  color: #e6e6e6;
+  padding: 5px;
+  margin: 5px;
+}
+
+.tutorial-tag-wrapper.contributors {
+  margin-top: 20px;
+}
+
+.solution-author-wrapper {
+  text-align: center;
+  background-color: #343955;
+  color: #e6e6e6;
+}
+
+.tag-wrapper .topic-tag {
+  background-color: #4b5270;
+  border-radius: 2px;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.navbar .navbar__inner {
+    margin: 0 auto;
+    max-width: 1360px;
+}
