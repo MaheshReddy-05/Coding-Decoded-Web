@@ -7,6 +7,7 @@ import L from "../HROH/L"
 import Community from "../Community";
 import OSPA from "../OSPA";
 import Footer from "../Footer";
+import FAQ from "../FAQ";
 
 
 export default function HomepageFeatures() {
@@ -19,6 +20,7 @@ export default function HomepageFeatures() {
         <L></L>
         <OSPA></OSPA>
         <Community></Community>
+        <FAQ></FAQ>
         <Footer></Footer>
     </div>
   );
