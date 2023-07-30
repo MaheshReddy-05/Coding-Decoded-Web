@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from "../Cards";
 import CDP from "../CDP";
-import WYG from "../whatyouget";
+import WYG from "../WYG";
 
 
 export default function HomepageFeatures() {
